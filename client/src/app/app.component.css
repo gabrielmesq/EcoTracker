@@ -1,0 +1,6 @@
+#init-button {
+    display: flex;
+    margin: 12 auto 3;
+    padding: 5;
+    height: 100vh;
+}
