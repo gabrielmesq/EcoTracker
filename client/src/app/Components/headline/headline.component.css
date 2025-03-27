@@ -1,0 +1,62 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+div{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#entrar{
+    margin-top: 10px;
+
+    width: 354px;
+    height: 75px;
+    background-color: #272D2A;
+
+    color: white;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+#cadastrar{
+    margin-top: 10px;
+
+    width: 354px;
+    height: 75px;
+    background-color: #00CC76;
+
+    color: white;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+#entrar:hover{
+    background-color: #1F2221;
+}
+
+#cadastrar:hover{
+    background-color: #00B25D;
+}
